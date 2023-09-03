@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+}
+.navcontainer
+{
+    display: flex;
+    justify-content: space-between;
+    min-height: 60px;
+    background-color:  rgb(107, 4, 203);
+    color: aliceblue;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#navlist
+{
+    display: flex;
+    gap:50px;
+    font-size: 18px;
+    padding-top:10px ;
+
+}
+#comp
+{
+    font-size: 30px;
+}
+#logo
+{
+    font-size: 15px;
+}
+#starting
+{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    min-height: 500px;
+   
+
+}
+#img
+{
+    height: 250px;
+    width: 350px;
+    border:1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px ;
+    
+  
+   
+}
+#img2
+{
+    height: 230px;
+    width: 350px;
+    border:1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px ;
+    position: absolute;
+    top:350px;
+    left: 300px;
+  
+
+}
+#deal
+{
+    padding-left: 350px;
+    font-size: 38px;
+}
+#cus{
+    padding-top: 15px;
+    padding-left: 350px;
+    
+}
+.exp
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+#sign
+{
+    font-size: 30px;
+
+}
+.cont{
+    padding-top: 30px;
+    padding-left: 320px;
+    padding-bottom: 10px;
+}
+.loca{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:20px;
+}
+#des{
+    height: 200px;
+    width: 270px;
+    border:1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px ;
+}
+#button
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+#view
+{
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(19, 149, 255);
+    color: white;
+    border:1px solid white;
+    border-radius: 15px;
+
+}
+.main{
+    min-height: 480px;
+}
+.booking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#discount
+{
+    font-size: 30px;
+}
+#para{
+    padding-top: 20px;
+}
+.cont{
+    display: flex;
+    justify-content:center;
+    padding-right: 100px;
+    padding-left: 100px;
+    gap:80px;
+    
+  
+}
+.p1
+{
+    width:260px;
+    height:420px;
+    
+    border:1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px;
+    background-color: azure;
+}
+.p2
+{
+    width:260px;
+    height:420px;
+    border:1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px;
+    background-color: azure;
+
+}
+.p3
+{
+    width:260px;
+    height:420px;
+    border:1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px;
+    background-color: azure;
+}
+#img1
+{
+    width:260px;
+    height:330px;
+    border:1px solid white;
+    border-radius: 10px;
+}
+#beach
+{
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+#star1
+{
+    color: yellow;
+
+    padding-left: 10px;
+    font-size: 20px;
+}
+#price1
+{
+    padding-left:10px;
+    padding-top: 8px;
+}
+#s1
+{
+    display:flex;
+}
+#rate1
+{
+    padding-top: 5px;
+}
+.book{
+    display: flex;
+    justify-content:space-between;
+    padding-right: 15px;
+    padding-bottom: 10px;
+
+    
+}
+#book
+{
+    padding:5px;
+    border: 0.2px solid white;
+    border-radius: 10px;
+    color:azure;
+    background-color: rgb(30, 138, 240);
+    cursor: pointer;
+
+}
+.container{
+    background-color: #A9C9FF;
+background-image: linear-gradient(270deg, #A9C9FF 0%, #FFBBEC 100%);
+
+}
+.con{
+    min-height:650px;
+}
+#connect
+{
+    font-size: 36px;
+    padding-left: 20px;
+}
+.social{
+    padding-left: 20px;
+    padding-top: 15px;
+
+    display: flex;
+    min-height:240px;
+}
+#logoofsocial
+{
+    display: flex;
+    font-size: 80px;
+    justify-content: space-evenly;
+    gap:80px;
+    padding-left: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+#social{
+    padding-left: 20px;
+    padding-top: 22px;
+
+}
+.suggest{
+    display: flex;
+    justify-content: space-between;
+
+}
+#sug{
+    font-size: 40px;
+}
+.box{
+    padding-left: 35px;
+}
+#explore{
+    padding-top: 20px;
+}
+.text{
+    padding-right: 100px;
+    
+    
+    
+}
+#area{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: darkgrey;
+    box-shadow: 5px 5px 15px black;
+}
+.suggest{
+    min-height:200px;
+}
+#submit{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(17, 132, 240);
+    color: azure;
+    width:90px;
+    cursor: pointer;
+}
+footer{
+    min-height:300px;
+    padding-top: 50px;
+    background-color: rgb(107, 4, 203);
+    color: azure;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+#Support{
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+}
+#address{
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+
+}
+h4{
+    font-size: 23px;
+}
+#copy{
+    text-align: center;
+    background-color: rgb(107, 4, 203) ;
+    color: azure;
+    padding-top:40px ;
+}
